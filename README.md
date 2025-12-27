@@ -35,17 +35,12 @@ These fields must validate each other using live data from the Open PLZ API.
 - If PLZ is valid → automatically fill the locality field.
 - If PLZ is invalid → show an error message.
 
-[Optional task] **Debounce**. Implement a 1-second debounce on both inputs before API calls.
+### Features Added 
+1. Automatically creates a dropdown when the locality is entered.
+2. Automatically fills the locality in the respective field after the PLZ is entered.
+3. Added a reset button for the user to proceed with the next search without refreshing.
 
-## AI Usage Rules
-
-You are allowed to use AI tools to complete this task. However, **transparency is required**.
-Please include a small artifact folder or a markdown section with:
-- Links to ChatGPT / Claude / Copilot conversations
-- Any prompts used (copy/paste the prompt text if links are private)
-- Notes about what parts were AI-assisted
-- Any generated code snippets you modified or rejected
-
-This helps us understand your workflow and decision-making process, not to judge AI usage.
+### AI Usage
+Link to the AI Usage - [Click Here](https://chatgpt.com/share/69501ef7-a69c-8012-8785-6a4014037498)
 
 Happy coding!
